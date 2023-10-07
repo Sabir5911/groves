@@ -67,8 +67,8 @@ export default function Footer() {
 
 
     </div>
-<hr  className='mt-10 max-w-7xl flex mx-auto' />
-<div className='flex justify-center py-16 text-[#D9D9D9]'>
+<hr  className='mt-5 max-w-7xl flex mx-auto' />
+<div className='flex justify-center py-8 text-[#D9D9D9]'>
     <h2>©2023 On Chain Games Inc - All rights reserved.</h2>
     </div>    
     
