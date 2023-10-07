@@ -12,7 +12,7 @@ export default function Hero() {
 
       <div className="  bg-no-repeat bg-cover pt-[140px]  pr-[24px] pb-[64px] pl-[24px] gap-[80px]  bg-gradient-to-b from-transparent via-#000700 to-#000700  from-rgba(0, 7, 0, 0.5) to-rgba(0, 7, 0, 0.5) bg-gradient-to-r from-#FFFFFF to-#FFFFFF  ">
 
-        <div  className=" flex items-center justify-around  flex-wrap  gap">
+        <div  className=" flex items-center justify-between px-4  flex-wrap  gap">
           {/* for right sectio */}
           <div className="flex flex-col  justify-center w-[515px] h-[142px]">
             <h1 className=" text-6xl font-extrabold  max-w-xl font-urbitsan">
