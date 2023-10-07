@@ -3,7 +3,7 @@ import Image from 'next/image'
 import col from '../../public/Col.svg'
 export default function Hero4() {
   return (
-    <div className='bg-[#000700] pt-20'>
+    <div className='bg-[#000700] pt-32'>
 
 
 <div className=' flex-col  '>

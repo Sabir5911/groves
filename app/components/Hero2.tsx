@@ -7,7 +7,7 @@ export default function Hero2() {
 
       <div className="bg-[url(/wave.svg)]   bg-no-repeat flex-col justify-center items-center flex-wrap -mt-16">
 
-            <div className='flex flex-col  justify-center items-center pt-60'>
+            <div className='flex flex-col  justify-center items-center pt-72'>
 
             <h1 className='text-6xl font-bold'>Web3 Gaming: Redefined</h1>
 <p className='max-w-2xl text-center pt-8 text-base font-light text-[#CBCBCB]'>
@@ -18,7 +18,7 @@ Geoverse is a fully onchain, top-down RPG built on Solana. It offers an immersiv
 
             </div>
             
-            <div className='flex justify-center  gap-x-7 flex-wrap pt-24' >
+            <div className='flex justify-center  gap-x-7 flex-wrap pt-14' >
     {data.map((elm)=>(
         <Boxes Header={elm.Header} discription={elm.discriptio}  image={elm.image} key={elm.id}  className='text-justify'/>
     ))}
