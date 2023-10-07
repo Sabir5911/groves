@@ -10,7 +10,7 @@ export default function Footer() {
   return<>
 <main className='bg-[#000700]'>
 
-    <div className='flex justify-evenly  flex-wrap mt-16' > 
+    <div className='flex justify-evenly  flex-wrap mt-24' > 
         {/* //first box */}
         <div>
             <Image src={logo} width={166} height={67} alt='logo' />
