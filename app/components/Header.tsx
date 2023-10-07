@@ -7,10 +7,10 @@ import Button from '../shared/Button'
 import Setting from '../../public/setting.svg'
 export default function Header() {
   return <>
-   <main className=' bg-[#00070066] flex justify-around items-center pt-[20px]  pr-[24px] pb-[20px] pl-[24px] ' >
+   <main className=' bg-[#00070066] flex justify-around items-center pt-[20px]  pr-[24px] pb-[20px] pl-[24px] w-[1440px] ' >
 
 
-<div  className=''>
+<div >
 <Image
         src={logo}
         alt="image"
@@ -22,7 +22,7 @@ export default function Header() {
 </div>
      
 
-    <ul className=" justify-center font-semibold items-center text-base gap-x-8  flex ">
+    <ul className=" justify-center font-semibold items-center text-base gap-[17px]  flex ">
       <Link href={"/"}>Home</Link>
       <Link href={"/Create"}>Create Player</Link>
       <Link href={"/Leaderboards"}>Leaderboards</Link>
