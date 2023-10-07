@@ -5,9 +5,8 @@ import { url } from 'inspector'
 export default function Hero2() {
   return <>
 
-      <div className="bg-[url(/wave.svg)]   bg-no-repeat -mt-6 flex-col justify-center items-center flex-wrap ">
+      <div className="bg-[url(/wave.svg)]   bg-no-repeat flex-col justify-center items-center flex-wrap -mt-16">
 
-            {/* this is the right box */}
             <div className='flex flex-col  justify-center items-center pt-60'>
 
             <h1 className='text-6xl font-bold'>Web3 Gaming: Redefined</h1>
@@ -18,7 +17,6 @@ Geoverse is a fully onchain, top-down RPG built on Solana. It offers an immersiv
 </p>
 
             </div>
-            {/* // this is the left box */}
             
             <div className='flex justify-center  gap-x-7 flex-wrap pt-24' >
     {data.map((elm)=>(
