@@ -5,7 +5,7 @@ import { url } from 'inspector'
 export default function Hero2() {
   return <>
 
-      <div className="bg-[url(/wave.svg)]   bg-no-repeat flex-col justify-center items-center flex-wrap pt-[200px]  pr-[24px] pb-[120px] pl-[24px] gap-[80px]">
+      <div className="bg-[url(/wave.svg)]    bg-no-repeat flex-col justify-center items-center flex-wrap pt-[200px]  pr-[24px] pb-[120px] pl-[24px] gap-[64px]">
 
             <div className='flex flex-col  justify-center items-center '>
 
@@ -18,7 +18,7 @@ Geoverse is a fully onchain, top-down RPG built on Solana. It offers an immersiv
 
             </div>
             
-            <div className='flex justify-center  gap-x-7 flex-wrap pt-14' >
+            <div className='flex justify-center  gap-x-7 flex-wrap pt-20' >
     {data.map((elm)=>(
         <Boxes Header={elm.Header} discription={elm.discriptio}  image={elm.image} key={elm.id}  className='text-justify'/>
     ))}
