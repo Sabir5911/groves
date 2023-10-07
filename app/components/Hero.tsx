@@ -7,11 +7,12 @@ import pic from "./../../public/Pic.svg";
 export default function Hero() {
   return (
     <>
-    
-      <div className="bg-[url(/hero.png)]   bg-no-repeat bg-cover   ">
-      <Header />
+    <div className="bg-[url(/hero.png)] bg-[rgba(0,7,0,0)] bg-cover bg-center bg-no-repeat h-[50%]">
+    <Header />
 
-        <div  className="pt-16 flex items-center justify-center  flex-wrap  bg-[rgba(0,7,0,0)] bg-cover bg-center bg-no-repeat h-[50%]">
+      <div className="  bg-no-repeat bg-cover pt-[140px]  pr-[24px] pb-[64px] pl-[24px] gap-80   ">
+
+        <div  className="pt-16 flex items-center justify-center  flex-wrap  ">
           {/* for right sectio */}
           <div className="flex flex-col  justify-center ml-20 ">
             <h1 className="text-6xl font-extrabold  max-w-xl">
@@ -65,6 +66,8 @@ export default function Hero() {
 
 
       </div>
+      </div>
+
     </>
   );
 }

@@ -7,7 +7,7 @@ import Button from '../shared/Button'
 import Setting from '../../public/setting.svg'
 export default function Header() {
   return <>
-   <main className=' bg-[#00070066] flex justify-around items-center py-8' >
+   <main className=' bg-[#00070066] flex justify-around items-center pt-[20px]  pr-[24px] pb-[20px] pl-[24px] ' >
 
 
 <div  className=''>
