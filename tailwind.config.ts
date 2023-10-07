@@ -11,6 +11,9 @@ const config: Config = {
       boxShadow: {
         'custom': '0 4px 50px 0px rgba(14, 238, 50, 0.70)',
       },
+      fontFamily: {
+        urbitsan: ['"Urbitsan"'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

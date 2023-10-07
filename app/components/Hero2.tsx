@@ -5,7 +5,7 @@ import { url } from 'inspector'
 export default function Hero2() {
   return <>
 
-      <div className="bg-[url(/wave.svg)]    bg-no-repeat flex-col justify-center items-center flex-wrap pt-[200px]  pr-[24px] pb-[120px] pl-[24px] gap-[64px]">
+      <div className="bg-[url(/wave.svg)]  font-urbitsan  bg-no-repeat flex-col justify-center items-center flex-wrap pt-[200px]  pr-[24px] pb-[120px] pl-[24px] gap-[64px]">
 
             <div className='flex flex-col  justify-center items-center '>
 

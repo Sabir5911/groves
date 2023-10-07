@@ -7,7 +7,7 @@ import pic from "./../../public/Pic.svg";
 export default function Hero() {
   return (
     <>
-    <div className="bg-[url(/hero.png)] bg-[rgba(0,7,0,0)] bg-cover bg-center bg-no-repeat h-[708px] ">
+    <div className="bg-[url(/hero.png)] bg-[rgba(0,7,0,0)] bg-cover bg-center bg-no-repeat h-[708px] font-urbitsan">
     <Header />
 
       <div className="  bg-no-repeat bg-cover pt-[140px]  pr-[24px] pb-[64px] pl-[24px] gap-[80px]  bg-gradient-to-b from-transparent via-#000700 to-#000700  from-rgba(0, 7, 0, 0.5) to-rgba(0, 7, 0, 0.5) bg-gradient-to-r from-#FFFFFF to-#FFFFFF  ">
@@ -15,7 +15,7 @@ export default function Hero() {
         <div  className=" flex items-center justify-around  flex-wrap  gap">
           {/* for right sectio */}
           <div className="flex flex-col  justify-center w-[515px] h-[142px]">
-            <h1 className="text-6xl font-extrabold  max-w-xl">
+            <h1 className=" text-6xl font-extrabold  max-w-xl font-urbitsan">
               The Gateway to Endless Realms
             </h1>
 
@@ -32,7 +32,7 @@ export default function Hero() {
             </div>
             
           </div>
-          <div className="w-[525px] h-[504px]" >
+          <div className="      w-[342px] h-[328px] lg:w-[525px] lg:h-[504px] mt-40 lg:mt-0 flex justify-center items-center" >
           <Image src={pic} alt="pic" width={550} height={500} />
 
 
