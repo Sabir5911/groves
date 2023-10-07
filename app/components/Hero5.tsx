@@ -19,7 +19,7 @@ export default function Hero5() {
 }
 ]
   return (
-    <div className="bg-[url(/Section-4-Background.png)]    pt-[100px]  pr-[24px] pb-[100px] pl-[24px] gap-32   bg-cover  flex justify-center items-center flex-wrap border-b border-slate-400">
+    <div className="bg-[url(/Section-4-Background.png)]    pt-[100px]  pr-[24px] pb-[100px] pl-[24px] gap-[32px]   bg-cover  flex justify-center items-center flex-wrap border-b border-slate-400">
     {
     data.map((elm,i=0)=>(
         <div className='flex flex-col  items-center py-[100px] px-[24px]'  key={i}>

@@ -5,9 +5,9 @@ import { url } from 'inspector'
 export default function Hero2() {
   return <>
 
-      <div className="bg-[url(/wave.svg)]   bg-no-repeat flex-col justify-center items-center flex-wrap pt-[200px]  pr-[24px] pb-[120px] pl-[24px] gap-80">
+      <div className="bg-[url(/wave.svg)]   bg-no-repeat flex-col justify-center items-center flex-wrap pt-[200px]  pr-[24px] pb-[120px] pl-[24px] gap-[80px]">
 
-            <div className='flex flex-col  justify-center items-center pt-72'>
+            <div className='flex flex-col  justify-center items-center '>
 
             <h1 className='text-6xl font-bold'>Web3 Gaming: Redefined</h1>
 <p className='max-w-2xl text-center pt-8 text-base font-light text-[#CBCBCB]'>

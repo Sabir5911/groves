@@ -10,7 +10,7 @@ export default function Hero() {
     <div className="bg-[url(/hero.png)] bg-[rgba(0,7,0,0)] bg-cover bg-center bg-no-repeat h-[50%]">
     <Header />
 
-      <div className="  bg-no-repeat bg-cover pt-[140px]  pr-[24px] pb-[64px] pl-[24px] gap-80  bg-gradient-to-b from-transparent via-#000700 to-#000700  from-rgba(0, 7, 0, 0.5) to-rgba(0, 7, 0, 0.5) bg-gradient-to-r from-#FFFFFF to-#FFFFFF  ">
+      <div className="  bg-no-repeat bg-cover pt-[140px]  pr-[24px] pb-[64px] pl-[24px] gap-[80px]  bg-gradient-to-b from-transparent via-#000700 to-#000700  from-rgba(0, 7, 0, 0.5) to-rgba(0, 7, 0, 0.5) bg-gradient-to-r from-#FFFFFF to-#FFFFFF  ">
 
         <div  className="pt-16 flex items-center justify-center  flex-wrap  ">
           {/* for right sectio */}

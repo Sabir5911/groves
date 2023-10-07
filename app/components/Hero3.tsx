@@ -6,7 +6,7 @@ import wall from '../../public/wall.svg'
 
 export default function Hero3() {
   return <>
-  <div className="bg-[url(/Section-3-Background.png)]   bg-center bg-no-repeat 	pt-[40px]  pr-[24px] pb-[120px] pl-[24px] gap-80">
+  <div className="bg-[url(/Section-3-Background.png)]   bg-center bg-no-repeat 	pt-[40px]  pr-[24px] pb-[120px] pl-[24px] gap-[80px]">
 
 
   <div className=' flex-col justify-center items-center flex-wrap'>

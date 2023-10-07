@@ -10,7 +10,7 @@ export default function Footer() {
   return<>
 <main className='bg-[#000700]'>
 
-    <div className='flex justify-around flex-wrap mt-24' > 
+    <div className='flex justify-around flex-wrap pt-[64px] pr-[24px] pb-[64px] pl-[24px] gap-[40px] ' > 
         {/* //first box */}
         <div>
             <Image src={logo} width={166} height={67} alt='logo' />
@@ -67,7 +67,7 @@ export default function Footer() {
 
 
     </div>
-<hr  className='mt-10 max-w-7xl flex mx-auto' />
+<hr  className='' />
 <div className='flex justify-center pt-5 pb-16 text-[#D9D9D9]'>
     <h2>©2023 On Chain Games Inc - All rights reserved.</h2>
     </div>    
