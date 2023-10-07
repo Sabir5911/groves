@@ -10,10 +10,10 @@ export default function Footer() {
   return<>
 <main className='bg-[#000700]'>
 
-    <div className='flex justify-evenly  pt-28 pb-16'> 
+    <div className='flex justify-evenly  pt-28 pb-16 flex-wrap'> 
         {/* //first box */}
         <div>
-            <Image src={logo} width={150} height={150} alt='logo' />
+            <Image src={logo} width={166} height={67} alt='logo' />
 
         </div>
         {/* //second box? */}
@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
 {/* //// */}
 <div >
-            <ol className='flex flex-col justify-center gap-y-2 text-base '>
+            <ol className='flex flex-col justify-center gap-y-2 text-base'>
                 <Link href={'/Li'} className='text-[#585858]'>Links</Link>
                 <div className='flex gap-x-3  '>
                 <Link href={'/FaTwitter'} ><FaTwitter size={'25px'}	 /></Link>
@@ -67,8 +67,8 @@ export default function Footer() {
 
 
     </div>
-<hr  className='py-2'/>
-<div className='flex justify-center pb-6'>
+<hr  className='py-2 max-w-7xl flex mx-auto' />
+<div className='flex justify-center py-6 text-[#D9D9D9]'>
     <h2>©2023 On Chain Games Inc - All rights reserved.</h2>
     </div>    
     

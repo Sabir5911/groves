@@ -9,9 +9,9 @@ export default function Hero4() {
 <div className=' flex-col  '>
             {/* this is the right box */}
 
-            <div className=' flex justify-center items-center flex-col '>
+            <div className=' flex justify-center items-center flex-col text-[#CBCBCB] '>
 
-            <h1 className='text-6xl font-semibold max-w-3xl tracking-wide	'>Forge Your Legacy </h1>
+            <h1 className='text-6xl font-bold max-w-3xl tracking-wide text-[#FFFFFF]	'>Forge Your Legacy </h1>
 <p className='max-w-xl text-center  text-base font-light pt-12'>
 The wilderness is vast and the caves deep, each a realm of mysteries and guarded by creatures of old. The path to discovering the keys is laden with challenges that test your wit, courage, and the skills you've honed. Every cave explored, every puzzle solved, and every foe vanquished is a step towards the coveted keys.
 

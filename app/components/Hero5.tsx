@@ -20,12 +20,12 @@ export default function Hero5() {
 ]
   return (
     <div className="bg-[url(/Section-4-Background.png)]  pt-32  pb-16">
-<div className=' flex justify-center items-center gap-x-12'>
+<div className=' flex justify-evenly items-center flex-wrap'>
     {
     data.map((elm,i=0)=>(
-        <div className='flex flex-col justify-center items-center ' key={i}>
-            <div className='text-6xl'>             {elm.Number1}</div> 
-            <div className='text-2xl pt-3'>               {elm.String}</div> 
+        <div className='flex flex-col  items-center  ' key={i}>
+            <div className='text-6xl font-semibold'>             {elm.Number1}</div> 
+            <div className='text-2xl pt-3 text-[#CBCBCB]'>               {elm.String}</div> 
         </div>
     ))
 

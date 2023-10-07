@@ -23,7 +23,7 @@ export default function Header() {
 </div>
      
 
-    <ul className=" justify-center items-center text-base gap-x-8 font-medium hidden lg:flex pb-5">
+    <ul className=" justify-center font-semibold items-center text-base gap-x-8  hidden lg:flex pb-5">
       <Link href={"/"}>Home</Link>
       <Link href={"/Create"}>Create Player</Link>
       <Link href={"/Leaderboards"}>Leaderboards</Link>
