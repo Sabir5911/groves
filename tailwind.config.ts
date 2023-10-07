@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       boxShadow: {
-        'custom': '0 4px 50px 0px rgba(14, 238, 50, 0.80)',
+        'custom': '0 4px 50px 0px rgba(14, 238, 50, 0.70)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
