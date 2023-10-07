@@ -6,7 +6,7 @@ import wall from '../../public/wall.svg'
 
 export default function Hero3() {
   return <>
-  <div className="bg-[url(/Section-3-Background.png)]  pt-52  w-full h-full bg-center bg-no-repeat 	">
+  <div className="bg-[url(/Section-3-Background.png)]  pt-52  w-full h-full bg-cover bg-center bg-no-repeat 	">
 
 
   <div className=' flex-col justify-center items-center flex-wrap'>
@@ -22,7 +22,7 @@ Embark on a grand quest in a realm where skills and exploration are the linchpin
             </div>
             {/* // this is the left box */}
             
-            <div className='flex justify-center py-36 flex-wrap '>
+            <div className='flex justify-center py-20 flex-wrap w-auto '>
                 <Image src={wall} height={535} width={1120} alt='play ' />
             </div>
            

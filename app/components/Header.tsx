@@ -7,9 +7,8 @@ import Button from '../shared/Button'
 import Setting from '../../public/setting.svg'
 export default function Header() {
   return <>
-   <main className='pt-7   bg-[#12121266] ' >
+   <main className=' bg-[#00070066] flex justify-around items-center pt-5' >
 
-<div className="  flex  justify-around items-center mb-3 ">
 
 <div  className='mb-3'>
 <Image
@@ -23,7 +22,7 @@ export default function Header() {
 </div>
      
 
-    <ul className=" justify-center font-semibold items-center text-base gap-x-8  hidden lg:flex pb-5">
+    <ul className=" justify-center font-semibold items-center text-base gap-x-8  flex pb-4">
       <Link href={"/"}>Home</Link>
       <Link href={"/Create"}>Create Player</Link>
       <Link href={"/Leaderboards"}>Leaderboards</Link>
@@ -42,7 +41,6 @@ export default function Header() {
 
 
 
-</div>
 </main>  
   </>
 }

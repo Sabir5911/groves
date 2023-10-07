@@ -10,7 +10,7 @@ export default function Footer() {
   return<>
 <main className='bg-[#000700]'>
 
-    <div className='flex justify-evenly  pt-28 pb-16 flex-wrap'> 
+    <div className='flex justify-evenly  flex-wrap mt-24' > 
         {/* //first box */}
         <div>
             <Image src={logo} width={166} height={67} alt='logo' />
@@ -18,8 +18,8 @@ export default function Footer() {
         </div>
         {/* //second box? */}
         <div >
-            <ol className='flex flex-col justify-center gap-y-2 text-base '>
-                <Link href={'/Li'} className='text-[#585858]'>Explore</Link>
+            <ol className='flex flex-col justify-center gap-y-4 text-base '>
+                <Link href={'/Li'} className='text-[#585858] font-bold'>EXPLORE</Link>
                 <Link href={'/Li'}>Home</Link>
                 <Link href={'/Li'}>Features</Link>
                 <Link href={'/Li'}> Play Now</Link>
@@ -29,8 +29,8 @@ export default function Footer() {
         </div>
 {/* /// */}
 <div >
-            <ol className='flex flex-col justify-center gap-y-2 text-base '>
-                <Link href={'/Li'} className='text-[#585858]'>About Us</Link>
+            <ol className='flex flex-col justify-center gap-y-4 text-base '>
+                <Link href={'/Li'} className='text-[#585858]'>ABOUT US</Link>
                 <Link href={'/Li'}>On Chain Games</Link>
                 <Link href={'/Li'}>Partners</Link>
                 <Link href={'/Li'}>  Careers</Link>
@@ -40,8 +40,8 @@ export default function Footer() {
         </div>
         {/* // */}
         <div >
-            <ol className='flex flex-col justify-center gap-y-2 text-base '>
-                <Link href={'/Li'} className='text-[#585858]'>Legal</Link>
+            <ol className='flex flex-col justify-center gap-y-4 text-base '>
+                <Link href={'/Li'} className='text-[#585858]'>LEGAL</Link>
                 <Link href={'/Li'}>Terms & Conditions</Link>
                 <Link href={'/Li'}>Privacy Policy</Link>
                 <Link href={'/Li'}> Cookie Policy</Link>
@@ -51,8 +51,8 @@ export default function Footer() {
         </div>
 {/* //// */}
 <div >
-            <ol className='flex flex-col justify-center gap-y-2 text-base'>
-                <Link href={'/Li'} className='text-[#585858]'>Links</Link>
+            <ol className='flex flex-col justify-center gap-y-4 text-base'>
+                <Link href={'/Li'} className='text-[#585858]'>LINKS</Link>
                 <div className='flex gap-x-3  '>
                 <Link href={'/FaTwitter'} ><FaTwitter size={'25px'}	 /></Link>
                 <Link href={'/BiLogoDiscordAlt'}><BiLogoDiscordAlt size={'25px'}	 /></Link>
@@ -67,8 +67,8 @@ export default function Footer() {
 
 
     </div>
-<hr  className='py-2 max-w-7xl flex mx-auto' />
-<div className='flex justify-center py-6 text-[#D9D9D9]'>
+<hr  className='mt-10 max-w-7xl flex mx-auto' />
+<div className='flex justify-center py-16 text-[#D9D9D9]'>
     <h2>©2023 On Chain Games Inc - All rights reserved.</h2>
     </div>    
     

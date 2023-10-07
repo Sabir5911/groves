@@ -19,20 +19,20 @@ export default function Hero5() {
 }
 ]
   return (
-    <div className="bg-[url(/Section-4-Background.png)]  pt-32  pb-16">
-<div className=' flex justify-evenly items-center flex-wrap'>
+    <div className="bg-[url(/Section-4-Background.png)] bg-cover  mt-36 flex justify-center items-center flex-wrap gap-x-32 border-b border-slate-400">
+{/* <div className=' flex justify-evenly items-center flex-wrap'> */}
     {
     data.map((elm,i=0)=>(
-        <div className='flex flex-col  items-center  ' key={i}>
-            <div className='text-6xl font-semibold'>             {elm.Number1}</div> 
-            <div className='text-2xl pt-3 text-[#CBCBCB]'>               {elm.String}</div> 
+        <div className='flex flex-col  items-center py-[100px] px-[24px]'  key={i}>
+            <div className='text-6xl font-semibold tracking-tighter '>             {elm.Number1}</div> 
+            <div className='text-2xl pt-3 text-[#CBCBCB] font-medium tracking-tighter'>               {elm.String}</div> 
         </div>
     ))
 
     }
     
 
-</div>
+{/* </div> */}
 
         
     </div>

@@ -7,17 +7,17 @@ import pic from "./../../public/Pic.svg";
 export default function Hero() {
   return (
     <>
-      <div className="bg-[url(/hero.png)] w-auto h-auto lg:h-[860px] bg-no-repeat bg-cover  ">
+      <div className="bg-[url(/hero.png)]   bg-no-repeat bg-cover   ">
         <Header />
         {/* className=" flex justify-evenly items-center pt-10  "  */}
-        <div  className="pt-20 flex flex-col  lg:flex-row items-center justify-center  flex-wrap gap-x-24">
+        <div  className="pt-16 flex items-center justify-center  flex-wrap ">
           {/* for right sectio */}
           <div className="flex flex-col  justify-center ml-20 ">
-            <h1 className="text-6xl font-extrabold tracking-wider max-w-xl">
+            <h1 className="text-6xl font-extrabold  max-w-xl">
               The Gateway to Endless Realms
             </h1>
 
-            <p className="text-[#CBCBCB] text-lg text-left max-w-sm pt-7 font-normal">
+            <p className="text-[#CBCBCB] text-base  text-left max-w-sm pt-7 font-normal">
               Geoverse is an ever expanding universe of interconnected
               adventures and experiences, crafted for limitless exploration.
             </p>
@@ -30,7 +30,7 @@ export default function Hero() {
             </div>
             
           </div>
-          <div className="float-left ">
+          <div className="float-left flex flex-shrink-0 ">
           <Image src={pic} alt="pic" width={550} height={500} className="mt-24 lg:mt-0 " />
 
           </div>

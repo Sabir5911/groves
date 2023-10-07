@@ -15,7 +15,7 @@ const Boxes: FC<props> = ({ Header, discription, className, image }) => {
         <Image src={image} width={50} height={50} alt="box" />
 
         </div>
-        <div className="font-bold text-xl max-w-6xl pt-3">{Header}</div>
+        <div className="font-bold text-2xl max-w-6xl pt-3">{Header}</div>
         <p className=' text-center pt-2 text-base font-light text-[#CBCBCB] max-w-sm'>{discription}</p>
       </div>
     </>
