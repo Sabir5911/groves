@@ -10,7 +10,7 @@ export default function Footer() {
   return<>
 <main className='bg-[#000700]'>
 
-    <div className='flex justify-around flex-wrap pt-[64px] pr-[24px] pb-[64px] pl-[24px] gap-[40px] ' > 
+    <div className='flex justify-around flex-wrap pt-[64px] pr-[24px] pb-[64px] pl-[24px] gap-[40px] w-[1440px] ' > 
         {/* //first box */}
         <div>
             <Image src={logo} width={166} height={67} alt='logo' />
